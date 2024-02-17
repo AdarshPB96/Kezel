@@ -40,7 +40,7 @@ class GoogleSignInContainer extends StatelessWidget {
                   fontSize: 24,
                   fontWeight: FontWeight.w600),
             ),
-            SizedBox()
+            const SizedBox()
           ],
         ),
       ),

@@ -4,13 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:kezel/view/home/home_screen.dart';
 import 'package:kezel/view/login/login_screen.dart';
-
 class Firebaseauth {
   final FirebaseAuth auth = FirebaseAuth.instance;
   final GoogleSignIn googleSignIn = GoogleSignIn();
-  // FirebaseFirestore db = FirebaseFirestore.instance;
-
-
   signOut(context) async {
     await auth.signOut();
     Navigator.of(context).pushReplacement(
@@ -36,7 +32,7 @@ class Firebaseauth {
       Navigator.pushReplacement(
           context,
           MaterialPageRoute(
-            builder: (context) => HomeScreen(),
+            builder: (context) => const HomeScreen(),
           ));
 
       return user;

@@ -14,9 +14,6 @@ class DataProvider extends ChangeNotifier {
   bool get isLoading => _isLoading;
 
   Future<void> fetchData() async {
-    _isLoading = true;
-    notifyListeners();
-
     final Map<String, String> body = {
       'restaurant': 'LeisureInnVKL',
     };

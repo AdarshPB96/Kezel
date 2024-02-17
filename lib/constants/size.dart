@@ -4,9 +4,11 @@ SizedBox tSizedBoxHeight20 = const SizedBox(
   height: 20,
 );
 
-
 const Widget tSizedBoxWidth50 = SizedBox(
   width: 50,
+);
+const Widget tSizedBoxWidth10 = SizedBox(
+  width: 10,
 );
 
 const Widget tSizedBoxHeight10 = SizedBox(

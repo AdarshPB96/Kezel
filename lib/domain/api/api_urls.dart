@@ -1,1 +1,1 @@
-var mainUrl = "https://kezel.co/api/getAllDigitalMenu.php";
+String mainUrl = "https://kezel.co/api/getAllDigitalMenu.php";
